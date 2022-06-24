@@ -66,7 +66,7 @@ getrandom = { version = "0.2.6" }
 esaxx-rs = { version = "1.0.0", default-features = false, features=[], registry = "kenbun" }
 
 [features]
-default = ["progressbar", "http", "cli", "onig", "esaxx_fast"]
+## default = ["progressbar", "http", "cli", "onig", "esaxx_fast"]
 esaxx_fast = ["esaxx-rs/cpp"]
 progressbar = ["indicatif"]
 http = ["reqwest", "cached-path"]
